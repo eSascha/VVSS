@@ -21,7 +21,7 @@ public class ValidatorTest {
     public void validateLaboratory() throws Exception {
         Validator validator = new Validator();
         float nota = 5;
-        Laboratory lab = new Laboratory(1, "09/06/2017", 1, nota, "test9999");
+        Laboratory lab = new Laboratory(1, "09/06/2017", 1, nota, "test9929");
         assertEquals(validator.validateLaboratory(lab), true);
     }
 
